@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Basic-lesson 01</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+<h1>Домашняя работа №1</h1>
+<section class="exercise">
+    <h3 class="exercise-title">Упражнение №1. Конвертер температуры.</h3>
+    <label class="exercise-temperature-label" for="exercise-temperature-input">Введите значение температуры в градусах Цельсия. Значение необходимо ввести в цифровом виде, в качестве разделителя используйте точку ".", например "36.6".</label>
+    <input class="exercise-temperature-input" type="text" id="exercise-temperature-input" value="36.6">
+    <button class="exercise-temperature-button" onclick="temperature()">Перевести в градусы по Фаренгейту</button>
+    <p class="exercise-temperature-result" id="exercise-temperature-result"></p>
+</section>
+<section class="exercise">
+    <h3 class="exercise-title">Упражнение №2. Переменные.</h3>
+    <label class="exercise-variables-label" for="exercise-variables-input">Введите значение переменной "name"</label>
+    <input class="exercise-variables-input" type="text" id="exercise-variables-input" value="Василий">
+    <button class="exercise-variables-button" onclick="variables()">Записать значение переменной "name" в переменную "admin"</button>
+    <p class="exercise-variables-result" id="exercise-variables-result"></p>
+</section>
+<section class="exercise">
+    <h3 class="exercise-title">Упражнение №3. Типы данных.</h3>
+    <h4>Чему будет равно выражение 1000 + "108"?</h4>
+    <button class="exercise-variables-button" onclick="typeData()">вычислить значение выражения</button>
+    <p class="exercise-data-result" id="exercise-data-result"></p>
+</section>
+<section class="exercise">
+    <h3 class="exercise-title">Упражнение №4. Атрибуты ASYNC и DEFER тега SCRIPT.</h3>
+    <p>Атрибуты ASYNC и DEFER задают порядлк обработки внешнего файла JavaScript интерпретатором. По умолчанию эти атрибуты отключены и интерпретатор HTML дойдя до тега SCRIPT приостановит обработку страницы и будет загружать внешний файл JS и потом его обрабатывать. После обработки файла JS интерпретатор HTML продолжит обработку страницы. Атрибуты ASYNC и DEFER позволяют изменить порядок обработки файла JS. При наличии атрибута ASYNC загрузка файла будет происходить паралельно с обработкой страницы и приостановится для выполнения скрипта только после его загрузки. При наличии атрибута DEFER загрузка файла будет происходить паралельно с обработкой страницы, а обработка файла JS произойдет только полной обработки страницы. Атрибуты ASYNC и DEFER будут работать только при загрузке скрипта с внешнего файла, т.е. при наличии атрибута SRC. Если задано сразу два атрибута — ASYNC и DEFER, то атрибут ASYNC игнорируется. </p>
+</section>
+
+
+
+</body>
+</html>
