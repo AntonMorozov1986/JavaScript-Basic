@@ -1,0 +1,44 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ddd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 100%;
+}
+
+.exercise {
+  background-color: #eee;
+  width: 100%;
+  min-height: 350px;
+  margin: 0 0 1em 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.exercise label {
+  text-align: justify;
+  display: block;
+  margin: 1em auto 1em auto;
+}
+.exercise input {
+  display: block;
+}
+.exercise p {
+  min-height: 3em;
+  text-align: left;
+}
+.exercise:nth-child(4), .exercise:nth-child(5) {
+  width: 100%;
+}
+.exercise:nth-child(4) p, .exercise:nth-child(5) p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=index.css.map */
