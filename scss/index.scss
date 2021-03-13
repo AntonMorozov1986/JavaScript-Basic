@@ -1,0 +1,40 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ddd;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 100%;
+}
+
+.exercise {
+  width: 100%;
+  background-color: #eee;
+  min-height: 350px;
+  margin: 0 0 1em 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+
+
+  & label {
+    text-align: justify;
+    display: block;
+    margin: 0 auto 1em auto;
+  }
+
+  & input {
+    display: block;
+    margin: 0 auto 1em auto;
+  }
+
+  & p {
+    min-height: 3em;
+  }
+}
